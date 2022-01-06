@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 600px;
+    background-color: #323232;
+    padding: 20px;
+    margin: 50px auto;
+    text-transform: capitalize;
+}
+.container .logo {
+        margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container .logo img {
+    width: 150px;
+    max-width: 500px;
+    border-radius: 50%;
+}
+.container .logo h2 {
+    color: #ed862ab8;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+    font-weight: normal
+}
+.container input {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.container input:focus {
+    outline: none;
+}
+.container .buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container .buttons button {
+    flex-basis: calc(50% - 20px);
+    text-transform: capitalize;
+    padding: 10px;
+    background-color: #77777742;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container .result {
+    background-color: #ED862A;  /* ED862A */
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.container .result span span {
+    color: white;
+    font-weight: bold;
+}
+.container .result .keys {
+    display: block;
+}
