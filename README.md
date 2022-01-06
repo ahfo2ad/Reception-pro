@@ -1,2 +1,2 @@
 # Reception-pro
-For reserving guests
+For reserving guests name
